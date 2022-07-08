@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sitio web inka amaru tours</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>INKA</span>AmaruTours</a>
+
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#reservar">Reservar</a>
+        <a href="#paquetes">Paquetes</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#revision">Revision</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#nosotros">Nosotros</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="inicio">
+
+    <div class="content">
+        <h3>la aventura vale la pena</h3>
+        <p>Descubre nuevos lugares con nosotras, la aventura te espera</p>
+        <a href="#" class="btn">descubrir mas</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="reservar">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>a</span>
+        <span>r</span>
+        <span class="space"></span>
+        <span>a</span>
+        <span>h</span>
+        <span>o</span>
+        <span>r</span>
+        <span>a</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>A donde</h3>
+                <input type="text" placeholder="Ponga Su Nombre">
+            </div>
+            <div class="inputBox">
+                <h3>cuantos</h3>
+                <input type="number" placeholder="cantidad de pasajeros">
+            </div>
+            <div class="inputBox">
+                <h3>llegadas</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>partida</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="reservar ahora">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="paquetes">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>q</span>
+        <span>u</span>
+        <span>e</span>
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> machupicchu </h3>
+                <h2> Camino Inca Machu Picchu 2 Días / 1 Noche</h2>
+                <p>Intégrese con la energía y la fuerza que contiene el lugar más importante de la civilización Inca… Machu Picchu, conozca la joya en arquitectura, una ciudadela que pasó inadvertida durante siglos, contemple también la belleza de la naturaleza, en medio de la ceja de Selva y podrá apreciar la variedad de flora y fauna de la zona, en donde se encuentra el poblado de Aguas Calientes, disfrute de sus maravillosas Aguas termo medicinales y déjese cautivar por la calidez de su gente.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> choquequirao </h3>
+                <h2> Trek Choquequirao 4 Días / 3 Noches</h2>
+                <p>Choquequirao (“Cuna de Oro”), también llamada la “Ciudad Perdida”, fue descubierta en el siglo XVIII por un explorador francés y desde entonces ha fascinado a los exploradores de siglos posteriores. También fue visitada por Hiram Bingham antes de descubrir Machu Picchu. Grandiosa y misteriosa, esta ciudad abandonada tiene muchas cosas en común con Machu Picchu y existen varias teorías respecto de su función. Sin embargo, la limpieza y puesta en valor del lugar gracias a COPESCO (organismo encargado del turismo en el Perú) es reciente, pero aún existe mucho por descubrir. Ubicada en el bosque nublado, a 1,150 m.s.n.m. Sobre el río Apurímac.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> camino inca </h3>
+                <h2>Camino Inca Machu Picchu 4 Días / 3 Noches </h2>
+                <p>Intégrese con la energía y la fuerza que contiene el lugar más importante de la civilización Inca… Machu Picchu, conozca la joya en arquitectura, una ciudadela que pasó inadvertida durante siglos, contemple también la belleza de la naturaleza, en medio de la ceja de Selva y podrá apreciar la variedad de flora y fauna de la zona, en donde se encuentra el poblado de Aguas Calientes, disfrute de sus maravillosas Aguas termo medicinales y déjese cautivar por la calidez de su gente.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> salkantay </h3>
+                <h2>Trek Salkantay a Machu Picchu 5 Días / 4 Noches</h2>
+                <p>Salkantay es la segunda mejor opción para aquellos caminantes que desean ir a Machu Picchu, ofreciendo un recorrido lleno de escenarios totalmente naturales, pasando por las faldas del majestuoso nevado Salkantay, coloridos pueblitos donde el idioma español es la segunda lengua, y donde la gente andina aún mantiene tradiciones que datan de tiempos remotos. A diferencia del Clásico Camino Inca, la excursión a Salkantay lo llevara por lugares menos visitados y con muy poca presencia de turistas, permitiéndole entrar verdaderamente en contacto con el mundo andino y interactuar con su gente.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> valle sagrado de los incas </h3>
+                <p>
+
+                    8:30 Inicio de nuestra excursión.
+                    
+                    Situado a los pies de los Andes, el valle que rodea Cusco tuvo gran importancia para los incas, que lo sembraron de palacios, templos y fortalezas.Realizaremos un recorrido de hermosos e inolvidables paisajes que muestran su cultura, arquitectura, mestizaje y arte visitando Pisaq, Ollantaytambo y Chinchero.
+                    
+                    PISAQ.-  Pintoresco pueblo ubicado en las faldas del cerro Intihuatana (lugar en donde se amarra el sol), posee el mejor sistema de andenería logrado por los Incas en todos los andenes.Posteriormente iremos a:
+                    
+                    URUBAMBA En este hermoso lugar tendremos un delicioso almuerzo bufett en un restaurant turístico y muy reconocido por la zona. Luego visitaremos:
+                    
+                    OLLANTAYTAMBO.- Es otra obra monumental de la arquitectura incaica. Constituyó un complejo militar, religioso, administrativo y agrícola, Ollantaytambo es la única ciudad inca que se conserva casi intacta y sus casas sirven aún como viviendas donde moran sus descendientes. Siguiente lugar a visitar es:
+                    
+                    
+                    </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Laguna de humantay </h3>
+                <p>
+
+                    Iniciamos el tour con el recojo de su hotel a  las 5.00 am en nuestro transporte privado para dirigirnos hacia Limatambo a donde llegaremos a las 6:30 am aproximadamente.
+                    En este lugar tendrán un tiempo de 30 minutos para poder tomar desayuno (por cuenta propia) después continuaremos el viaje por 2 horas más aproximadamente hasta llegar a Soraypampa ubicado a 3900 m.s.n.m.
+                    Desde este punto iniciamos con la caminata hacia la Laguna Humantayubicado a 4200 m.s.n.m. La cual está muy cerca de la montaña Salkantay,.
+                    En el camino iremos disfrutando de las hermosas vistas de las montañas y los nevados Salkantayy Humantay. Después de 1 hora y 30 minutos aproximadamente llegaremos a la ansiada Laguna turquesa Humantay donde podrán tomar fotos y disfrutar del paisaje Natural y bellisismo.
+                    Después iniciamos la caminata de retorno hacia Soraypampa lugar donde disfrutaran de un delicioso almuerzo buffet.
+                    Posteriormente retornaremos a la ciudad del Cusco aproximadamente a las 06:00 pm
+                
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">reservar ahora</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="servicios">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>i</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>hotele recomendado</h3>
+            <p>Hotel Casa Andina Cusco, 5 hoteles en la ciudad de Cusco con excelente ubicación. Disfruta de Cusco en nuestros hoteles Casa Andina con desayuno buffet y wifi gratis.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>restaurante recomendado</h3>
+            <p>Inka Grill, Fue uno de los primero restaurantes en Cusco y tiene una de las mejores ubicaciones, justo en la esquina de la majestuosa Plaza de Armas. Su especialidad es la comida novoandina y la cocina internacional, ofreciendo deliciosas creaciones usando ingredientes frescos como: trucha, alpaca, quinua y queso andino. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>guias turismo</h3>
+            <p>“AGOTUR CUSCO” es un ente deontológico que fue creada para proteger, promover, gestionar, vigilar y defender los derechos de los Profesionales Guías Oficiales de Turismo; reforzando sus capacidades, en coordinación con las instituciones del sector público-privado y la protección del patrimonio cultural y natural.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>viaje por el mundo</h3>
+            <p>Destinos ideales para viajar y descubrir nuevas Experiencias. Compra en Viajes Inka Amaru Tuors Escápate y recorre el Mundo con Viajes Inka Amaru Tours Elige tu destino y alista tus maletas. Vuelo + Hotel. Ofertas. Paquetes Increibles. Increibles Destinos.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>viajse rapidos</h3>
+            <p>Inka Amaru Tours, es tu agencia de viajes especializada en Perú. Preparamos un viaje rapidos inolvidable a Perú con todos los detalles. Contacta con nosotros.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>aventuras</h3>
+            <p>Los circuitos más destacados son el Camino Inca a Machu Picchu, la cordillera Blanca, la cordillera de Huayhuash, el llamatrek Olleros - Chavín, la ruta del valle y cañón del Colca, en Cusco la ruta del Ausangate, la ruta del Salkantay, la ruta de Choquequirao, la ruta de la Montaña de 7 Colores, y la ruta de Lares.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="galeria">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>i</span>
+        <span>a</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3> lugares increibles </h3>
+                <p>Principal Atractivo Turistico Saccsayhuaman .</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p>Principal Atractivo Turistico Ollantaytambo.</p>
+                <a href="#" class="btn"> ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3> lugares increibles </h3>
+                <p>Principal Atractivo Turistico Pisac.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p> Principal Atractivo Turistico Chincheros.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p> Principal Atractivo Turistico Moray. </p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p>Principal Atractivo Turistico Tipon.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p>Principal Atractivo Turistico Salineras Marsa.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p>Principal Atractivo Turistico Salineras Cerro 7 Colores.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>lugares increibles</h3>
+                <p>Principal Atractivo Turistico Salineras Plaza De Armas Cusco.</p>
+                <a href="#" class="btn">ver mas</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="revision">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>s</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>carla ttito</h3>
+                    <p>Consulta nuestra agencia de viajes Si necesitas contactar con alguna de nuestros paquetes contactenos con uno de nosotros ponga su nombre y telefono su dirección para comunicarnos.
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>jonh campos</h3>
+                    <p>Consulta nuestra agencia de viajes Si necesitas contactar con alguna de nuestros paquetes contactenos con uno de nosotros ponga su nombre y telefono su dirección para comunicarnos.
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>monica Vargas</h3>
+                    <p>Consulta nuestra agencia de viajes Si necesitas contactar con alguna de nuestros paquetes contactenos con uno de nosotros ponga su nombre y telefono su dirección para comunicarnos.
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3> marco rojas</h3>
+                    <p>Consulta nuestra agencia de viajes Si necesitas contactar con alguna de nuestros paquetes contactenos con uno de nosotros ponga su nombre y telefono su dirección para comunicarnos.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contacto">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>o</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nombre">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="numero">
+                <input type="text" placeholder="tema">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="enviar mensaje">
+        </form>
+
+    </div>
+    
+</section>
+
+
+
+
+<!-- Nosotros -->
+
+<!-- Mision y Vision  -->
+
+<section class="nosotros" id="nosotros">
+
+    <h1 class="heading">
+        <span>n</span>
+        <span>o</span>
+        <span>s</span>
+        <span>o</span>
+        <span>t</span>
+        <span>r</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic5.png" alt="">
+                    <h3>Mision</h3>
+                    <p>
+                        Brindar una excelente calidad de servicio y eficiencia con único fin de lograr la plena satisfacción de nuestros clientes con nuestros paquetes turísticos a precios realmente accesibles para que las familias tengan la oportunidad de conocer las maravillas de nuestro Perú.
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic6.png" alt="">
+                    <h3>vision</h3>
+                    <p>A mediano plazo nuestro compromiso es ser una empresa líder en mercado turístico a nivel nacional e internacional, ofreciendo un servicio óptimo de calidad y eficiencia buscando la completa y plena satisfacción de nuestros clientes. Asimismo seremos reconocidos como una de las mejores empresas con un buen posicionamiento en el país.
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic7.png" alt="">
+                    <h3>Valores</h3>
+                    <p>Responsabilidad
+                        Puntualidad
+                        Honestidad
+                        Respeto
+                        Amabilidad
+
+
+
+
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic8.png" alt="">
+                    <h3> quienes somos</h3>
+                    <p>Inka Amaru Tours es una nueva agencia de viajes y turismo que te lleva a conocer todos los destinos a nivel nacional como Lima, Ica Puno y Cusco, contamos con los mejores paquetes turísticos y un equipo de profesionales altanamente capacitados para brindarte la mejor información turística.
+                        Realizamos los paquetes de viaje pensando en su tiempo, economía y preferencias para lo cual le mostramos todas las opciones a elegir.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sobre nosotros</h3>
+            <p>Inka Amaru Tours es una nueva agencia de viajes y turismo que te lleva a conocer todos los destinos a nivel nacional como Lima, Ica Puno y Cusco, contamos con los mejores paquetes turísticos y un equipo de profesionales altanamente capacitados para brindarte la mejor información turística.
+                Realizamos los paquetes de viaje pensando en su tiempo, economía y preferencias para lo cual le mostramos todas las opciones a elegir.</p>
+        </div>
+        <div class="box">
+            <h3>nuestros sucursales</h3>
+            <a href="#">cusco</a>
+            <a href="#">lima</a>
+            <a href="#">arequipa</a>
+            <a href="#">puno</a>
+        </div>
+        <div class="box">
+            <h3>enlaces rapidos</h3>
+            <a href="#">inicio</a>
+            <a href="#">reservar</a>
+            <a href="#">paquetes</a>
+            <a href="#">servicios</a>
+            <a href="#">galeria</a>
+            <a href="#">revision</a>
+            <a href="#">Contacto</a>
+            <a href="#">nosotros</a>
+        </div>
+        <div class="box">
+            <h3>siganos</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> creado por <span> carlos Huanca </span> | reservado todos los derecho </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
